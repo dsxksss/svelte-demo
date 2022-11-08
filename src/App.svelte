@@ -39,15 +39,30 @@
     >{c.character}</span
   >
 {/each}
+<div class="center">
+  <spen class="context">给 我 唱 歌</spen>
+</div>
 
 <style>
   :global(body) {
     overflow: hidden;
+    color: lightcoral;
   }
 
   span {
     position: absolute;
     font-size: 5vw;
     user-select: none;
+  }
+
+  .center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .context {
+    font-size: 18rem;
   }
 </style>
